@@ -37,7 +37,7 @@ const Index = () => {
     formData.append("old_resume", resumeFile);
 
     // --- UPDATED: Points to your AWS Server (Port 80) ---
-    const AWS_API_URL = "http://13.203.201.170";
+    const AWS_API_URL = "https://grilla-zestfully-vena.ngrok-free.dev";
 
     const endpoint = activeTab === "resume" 
       ? `${AWS_API_URL}/generate`
